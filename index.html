@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JayBites</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <ul class="nav-items">
+                <li><a href="#">HOME</a></li>
+                <li><a href="about">ABOUT</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- <h1><em>JayBites</em></h1>
+        <div class="header">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="images/pizza.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="about">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>ABOUT US</h2>
+                    <p>Welcome to JayBites, a fully fledged restaurant specializing in delivering a relaxed and
+                        memorable
+                        pizza
+                        experience. We’re currently in 12 locations; 3 in Nairobi, 8 in Kampala and 1 in Entebbe.
+                        Each location features a unique ambience with tasteful décor, specially designed for your
+                        comfort.
+                        To make you feel more at home, we’ve carefully selected a unique theme for each location.
+                        We have over 20 carefully selected, mouthwatering pizza menu items. Whatever your taste, it’s
+                        well
+                        catered for. We value you. That’s why you’ll always be served with excellence by each member of
+                        our
+                        highly skilled team members.
+                        Eager to serve you, our experienced wait staff greet you at the door and lead you to the table
+                        of
+                        your choice in the well thought out seating arrangement. To ensure you always enjoy a special
+                        pizza
+                        experience, we constantly improve our signature world-class innovations.
+                        We’re growing and may soon open a location closer to you. We look forward to serving you,
+                        You’re more than welcome to Find us here.</p>
+                </div>
+
+            </div>
+        </div>
+<br>
+<br>
+        <div class="container-fluid order" id="make-order">
+            <div class="order-overlay">
+                <div class="controls-top text-center" id="Order-now">
+                    <h2>PLACE YOUR ORDER</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <form action="">
+                            <label for="select">Select Preffered flavour</label>
+                            <select class="browser-default custom-select custom-select-md mb-3 name">
+                                <option value="Chicken Tikka">Chicken Tikka</option>
+                                <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                                <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+                                <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                                <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+                                <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                            </select>
+                            <label for="select">Select Size</label>
+                            <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                                <option selected value="0">Select size here</option>
+                                <option value="large">Large -- sh. 1200</option>
+                                <option value="medium">Medium -- sh. 850</option>
+                                <option value="small">Small -- sh. 600</option>
+                            </select>
+                            <label for="crust">Choose your favorite Crust!</label>
+                            <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                                <option selected value="0">Select your preferred crust!</option>
+                                <option value="Crispy">Crispy -- sh. 200</option>
+                                <option value="Stuffed">Stuffed -- sh. 150</option>
+                                <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                            </select>
+                            <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                                <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage"
+                                    name="toppings">
+                                <label class="custom-control-label" for="Sausage">Sausage</label>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                                <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon"
+                                    name="toppings">
+                                <label class="custom-control-label" for="Bacon">Bacon</label>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                                <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms"
+                                    name="toppings">
+                                <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                            </div>
+                            <br><br>
+                            <button type="submit" class="btn btn-danger proceed">Proceed</button>
+
+                        </form>
+                    </div>
+                    <div class="col-sm-7">
+                        <div id="info">
+                            <p>Your order will be processed and delivered within one hour of placing.</p>
+                            <p id="regards">Regards, Management</p>
+                        </div>
+                        <div class="choice">
+                            <h2>Your Order is:</h2>
+                            <div id="your-orders">
+                                <table class="table table-sm  pizzatable">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Size</th>
+                                            <th scope="col">Crust</th>
+                                            <th scope="col">Topping</th>
+                                            <th scope="col">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="ordersmade">
+                                        <tr>
+                                            <td id="pizzaname"></td>
+                                            <td id="pizzasize"></td>
+                                            <td id="pizzacrust"></td>
+                                            <td id="pizzatopping"></td>
+                                            <td id="totals"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p id="pizzatotal"></p>
+                                <p id="totalbill"></p>
+                                <p id="addedprice">Delivery will cost sh. 150</p>
+                                <p id="finallmessage"></p>
+                            </div>
+                            <button class="btn btn-danger addPizza">Add Pizza</button>
+                            <button class="btn btn-danger" id="checkout">Checkout</button>
+                            <button class="btn btn-danger deliver">Home delivery?</button>
+                        </div>
+                        <div class="pick-up">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                    <input type="number" id="phone" class="form-control mb-3"
+                                        placeholder="Phone Number">
+                                    <input type="text" id="location" class="form-control mb-3"
+                                        placeholder="Location for pick-up">
+                                    <button class="btn btn-danger" id="final-order">Place Order</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    </div>
+</body>
+
+</html>
