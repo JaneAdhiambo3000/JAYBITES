@@ -39,5 +39,5 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ## LICENSE:
 
-© [MIT](LICENSE.md)
+© [MIT](LICENSE)
 
