@@ -60,7 +60,7 @@ $(document).ready(function () {
       $("button.proceed").show();
       $("#info").show();
       $("div.choice").hide();
-      alert("Hungry peep please select pizza size and crust"); 
+      alert("Hello, please select pizza size and crust"); 
     }
     else{
       $("button.proceed").hide();
@@ -154,7 +154,7 @@ $(document).ready(function () {
       $("button.deliver").hide();
       $("#pizzatotal").hide();
       let deliveryamount= checkoutTotal+150;
-      console.log("You will pay sh. "+deliveryamount+" on pick-up");
+      console.log("Your amount is sh. "+deliveryamount+" on pick-up");
       $("#totalbill").append("Your bill plus pick-up fee is: "+deliveryamount);
     });
 
@@ -164,15 +164,15 @@ $(document).ready(function () {
       $("#pizzatotal").hide();
       $(".pick-up").hide();
       $("button#final-order").hide();
-      let deliceryamount= checkoutTotal+150;
-      console.log("Final Bill is: "+deliceryamount);
+      let deliveryamount= checkoutTotal+150;
+      console.log("Final Bill is: "+deliveryamount);
       let person = $("input#name").val();
       let phone = $("input#phone").val();
       let location = $("input#location").val();
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
 
-        $("#finallmessage").append(person+",Hello hungry peep! We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliveryamount);
+        $("#finallmessage").append(person+",Hello! We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliveryamount);
         $("#totalbill").hide();
         $("#finallmessage").slideDown(1200);
       }

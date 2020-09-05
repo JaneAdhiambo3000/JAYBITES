@@ -13,6 +13,7 @@ h1{
     float: right;
     text-decoration: none;
     list-style: none;
+    height: 100px;
 }
 .nav-items li a{
     display: flex;
@@ -24,7 +25,8 @@ h1{
     height: 600px;
 }
 .about{
-    color: papayawhip;
+    color: black;
+    background-color: yellow;
 }
 
 /* .order-overlay{
@@ -105,8 +107,9 @@ button {
 .footer{
     color:papayawhip;
     padding-left: 100px;
+    background-color: grey;
 }
 .copyright{
     text-align: center;
-    color: green;
+    color: yellow;
 }
