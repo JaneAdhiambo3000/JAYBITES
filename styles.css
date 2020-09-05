@@ -5,7 +5,7 @@
 }
 h1{
     text-align: center;
-    color: yellowgreen;
+    color: aqua;
 }
 .nav-items{
     display: flex;
@@ -102,3 +102,11 @@ button {
   border-radius: 15px;
   background-color: crimson;
 } 
+.footer{
+    color:papayawhip;
+    padding-left: 100px;
+}
+.copyright{
+    text-align: center;
+    color: green;
+}
