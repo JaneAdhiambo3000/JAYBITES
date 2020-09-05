@@ -4,8 +4,8 @@
     font-size: 18px;
 }
 h1{
-    color: cornsilk;
-    color: palevioletred;
+    text-align: center;
+    color: yellowgreen;
 }
 .nav-items{
     display: flex;
@@ -26,10 +26,7 @@ h1{
 .about{
     color: papayawhip;
 }
-h2{
-    text-align: center;
-    display: flex;
-}
+
 /* .order-overlay{
     background-image: url("images/nrd-1ZOZyhfSvfs-unsplash.jpg");
     color: papayawhip;
