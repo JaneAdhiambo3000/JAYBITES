@@ -1,4 +1,4 @@
-/* body{
+ body{
     background-color: black;
     padding-top: 30px;
     font-size: 18px;
@@ -7,7 +7,7 @@ h1{
     color: cornsilk;
     color: palevioletred;
 }
-.nav-items{
+/* .nav-items{
     display: flex;
     margin-right: 20px;
     float: right;
@@ -33,4 +33,4 @@ h2{
 .order-overlay{
     background-image: url("images/nrd-1ZOZyhfSvfs-unsplash.jpg");
     color: papayawhip;
-} */
+}  */
