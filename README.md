@@ -1,8 +1,8 @@
-## DELANI-STUDIO
-This is a website for developers to develop designs and products in a fun environment.
+## JAYBITES PIZZA INN
+This is a website for a fully fledged restaurant specializing in delivering a relaxed and memorable pizza experience by ensuring you get what you ask for is what is delivered.
 
 ## DEMO
-Here is a working live demo :  https://janeadhiambo3000.github.io/DELANI-STUDIO/
+Here is a working live demo of website:   https://janeadhiambo3000.github.io/JAYBITES/
 
 
 ## MOBILE SUPPORT:
