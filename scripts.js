@@ -172,7 +172,7 @@ $(document).ready(function () {
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
 
-        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliveryamount);
+        $("#finallmessage").append("Hello " +person+ "! We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliveryamount);
         $("#totalbill").hide();
         $("#finallmessage").slideDown(1200);
       }
