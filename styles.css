@@ -10,6 +10,15 @@ body{
     font-size: 18px;
 }
 
+.what-we-do{
+    text-align: center;
+    background-color: white;
+}
+
+.what-we-do h1{
+    color: black;
+}
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
@@ -118,7 +127,7 @@ button {
 } 
 .footer{
     color:papayawhip;
-    padding-left: 100px;
+    padding-left: 150px;
     background-color: grey;
 }
 .copyright{
