@@ -1,11 +1,23 @@
- body{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html,body {
+  scroll-behavior: smooth;
+
+}
+
+body{
     background-color: black;
     padding-top: 30px;
     font-size: 18px;
 }
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
 h1{
-    text-align: center;
-    color: aqua;
+   text-align: center;
+   color: white;
 }
 .nav-items{
     display: flex;
@@ -26,7 +38,7 @@ h1{
 }
 .about{
     color: black;
-    background-color: yellow;
+    background-color: orange;
 }
 
 /* .order-overlay{
@@ -111,5 +123,5 @@ button {
 }
 .copyright{
     text-align: center;
-    color: yellow;
+    color: black;
 }
