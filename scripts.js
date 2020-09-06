@@ -23,11 +23,11 @@ $(document).ready(function () {
                 price = 0;
                 break;
             case "large":
-                price = 1200;
+                price = 1000;
                 console.log(price);
                 break;
             case "medium":
-                price = 850;
+                price = 800;
                 console.log("The price is " + price);
                 break;
             case "small":
@@ -47,12 +47,12 @@ $(document).ready(function () {
                 crust_price = 250;
                 break;
             case "Gluten-free":
-                crust_price = 180;
+                crust_price = 150;
                 break;
             default:
                 console.log("No price");
         }
-    let topping_value = ptopping.length*50;
+    let topping_value = ptopping.length*100;
     console.log("toppins value" + topping_value);
 
     if((psize == "0") && (pcrust == "0")){
@@ -94,11 +94,11 @@ $(document).ready(function () {
           price =0;
         break;
         case "large":
-           price = 1200;
+           price = 1000;
            console.log(price);
          break;
          case "medium":
-           price = 850;
+           price = 800;
            console.log("The price is "+price);
          break;
          case "small":
@@ -115,15 +115,15 @@ $(document).ready(function () {
             crust_price = 200;
           break;
           case "Stuffed":
-            crust_price = 150;
+            crust_price = 250;
           break;
           case "Gluten-free":
-            crust_price = 180;
+            crust_price = 150;
           break;
           default:
             console.log("No price"); 
         }
-        let topping_value = ptopping.length*50;
+        let topping_value = ptopping.length*100;
         console.log("toppins value" + topping_value);
         total = price + crust_price + topping_value;
         console.log(total);
@@ -153,7 +153,7 @@ $(document).ready(function () {
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliveryamount= checkoutTotal+150;
+      let deliveryamount= checkoutTotal+200;
       console.log("Your amount is sh. "+deliveryamount+" on pick-up");
       $("#totalbill").append("Your bill plus pick-up fee is: "+deliveryamount);
     });
@@ -164,7 +164,7 @@ $(document).ready(function () {
       $("#pizzatotal").hide();
       $(".pick-up").hide();
       $("button#final-order").hide();
-      let deliveryamount= checkoutTotal+150;
+      let deliveryamount= checkoutTotal+200;
       console.log("Final Bill is: "+deliveryamount);
       let person = $("input#name").val();
       let phone = $("input#phone").val();
